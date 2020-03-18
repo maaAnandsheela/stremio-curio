@@ -1,4 +1,4 @@
-# stremio-indian-livetv
+# stremio-curio
 
 
 This is a [Stremio](https://www.stremio.com/) add-on for [curio](https://curio.io/) which is a paid audio journalism app.
@@ -53,4 +53,3 @@ docker stop scurio
 
 ![Screenshot](/captures/screenshot2.png)
 
-![Screenshot](/captures/screenshot3.png)
