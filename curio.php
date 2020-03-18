@@ -106,7 +106,7 @@ function curio_genre($id) {
 			$final[$i]['genre'] = array($fin['provider']);
 			$metas['metas'][] = generate_meta($final[$i]);
 			$i++;
-			if ($i > 65)
+			if ($i > 64)
 				break;
 		}
 	}

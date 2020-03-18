@@ -9,3 +9,4 @@ $config['version'] = "1.1.1";
 
 //Cache Path important to set.
 define("PATH","/tmp/data.json"); //dont change for zeit.co deployments.
+define("USING_ZEIT",1); //dont change for zeit.co deployments. Set to 0 if non zeit deployment.
