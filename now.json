@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "name": "stremio-curio",
+    "builds": [
+        { "src": "*.php", "use": "now-php" }
+    ],
+	"rewrites": [
+    { "source": "/manifest.json", "destination": "/manifest.php" },
+    { "source": "/(.*)/(.*)/(.*)/(.*).json", "destination": "index.php?content=$1&type=$2&id=$3&extra=$4" },
+	{ "source": "/(.*)/(.*)/(.*).json", "destination": "index.php?content=$1&type=$2&id=$3" }
+  ]
+}

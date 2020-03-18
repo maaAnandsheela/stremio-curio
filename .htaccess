@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteBase /personal/stremio-curio
+
+RewriteRule ^manifest.json manifest.php
+
+RewriteRule ^(.*)/(.*)/(.*).json index.php?content=$1&type=$2&id=$3
+
+RewriteRule ^(.*)/(.*)/(.*)/(.*).json index.php?content=$1&type=$2&id=$3&extra=$4 [B]
+
+
