@@ -5,7 +5,7 @@ This is a [Stremio](https://www.stremio.com/) add-on for [curio](https://curio.i
 
 It is a php and apache app and can be run on major free hosting service.
 
-Demo : https://stremio-curio.now.sh/manifest.json
+Demo : https://stremio-curio-two.now.sh/manifest.json
 
 ## Features
 
